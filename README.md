@@ -47,6 +47,10 @@ https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/install
 
 # The template "Blazor Server App" 생성하기
 
+`dotnet`
+
+설치 성공 확인을 합니다.
+
 `dotnet new blazorserver -o BlazorApp --no-https -f net7.0`
 
 이 명령은 새 Blazor 앱 프로젝트를 만들고 현재 위치 내의 BlazorApp라는 새 디렉터리에 배치합니다.
@@ -59,3 +63,5 @@ https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/install
 
 dotnet watch 명령은 앱을 빌드 및 시작한 다음 코드를 변경할 때마다 앱을 업데이트합니다.
 첫 번째 Blazor 앱을 성공적으로 실행되었습니다.
+
+Blazor 코드 내에서 @ 는 c# 과 바인딩 시켜주는 역할으로 리엑트처럼 한 공간 안에서 html javascript c# 을 한번에 쉽게 불러와 사용할수가 있습니다.
